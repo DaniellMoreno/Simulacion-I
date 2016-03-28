@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                                      PCE01 - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/28/2016
+Analyst: PCE01                                                       Model revision date: 3/28/2016
+
+Replication ended at time      : 1000.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.1470     (Insuf)    .06017     3.6528         12    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         12    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000         12    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         12    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         12    
+Entity 1.TotalTime                          1.1470     (Insuf)    .06017     3.6528         12    
+Banco.Queue.WaitingTime                     .00000     (Insuf)    .00000     .00000         12    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .01376     (Insuf)    .00000     1.0000     .00000    
+Servidor.NumberBusy                         .01376     (Insuf)    .00000     1.0000     .00000    
+Servidor.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Servidor.Utilization                        .01376     (Insuf)    .00000     1.0000     .00000    
+Banco.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           12.000    
+Entity 1.NumberOut                          12.000    
+Servidor.NumberSeized                       12.000    
+Servidor.ScheduledUtilization               .01376    
+System.NumberOut                            12.000    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.
