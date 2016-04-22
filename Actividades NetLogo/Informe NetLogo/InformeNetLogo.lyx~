@@ -1,0 +1,244 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\begin_modules
+multicol
+\end_modules
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 2
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+NetLogo el entorno programable de modelado para simular fenómenos naturales
+ y sociales 
+\end_layout
+
+\begin_layout Author
+Daniel Armando Tique Moreno 
+\end_layout
+
+\begin_layout Author
+Universidad de los Llanos 
+\end_layout
+
+\begin_layout Author
+Villavicencio, Colombia 
+\end_layout
+
+\begin_layout Author
+daniel.tique@unillanos.edu.co 
+\end_layout
+
+\begin_layout Abstract
+En este documento se presentará el desarrollo del tutorial de laboratorio
+ para el aprendizaje de la herramienta NetLogo como entorno programable
+ de modelado para simular fenómenos naturales y sociales, el cual tiene
+ como objetivo mostrar de manera breve la experiencia adquirida a través
+ del seguimiento del tutorial que se encuentra dividido en tres partes que
+ son el manejo del modelo, la aplicación de los comandos y el uso de los
+ procedimientos, en el cual se respondieron preguntas que se encontraron
+ en cada una de las partes de aprendizaje del laboratorio contenidas en
+ este, con base a las modificaciones que se pide aplicar, y cuál es su efecto
+ o respuesta sobre el modelo o sobre la misma herramienta, de tal forma
+ que se mostrará algunas de las ejecuciones más relevantes en la herramienta
+ NetLogo.
+ 
+\end_layout
+
+\begin_layout Abstract
+Palabras claves: Simular, Modelo, Herramienta, Entorno.
+ 
+\end_layout
+
+\begin_layout Abstract
+Abstract 
+\end_layout
+
+\begin_layout Abstract
+This paper will present the development of tutorial laboratory for learning
+ NetLogo tool as programmable modeling environment for simulating natural
+ and social phenomena , which aims to show briefly the experience gained
+ by following the tutorial that is divided into three parts that are handling
+ model , the application commands and the use of procedures in which questions
+ found in each of the parts learning laboratory contained therein is answered
+ , based on You ask the modifications applied , and what is its effect or
+ response on the model or the same tool , so that some of the most important
+ performances will be shown in the NetLogo tool.
+ 
+\end_layout
+
+\begin_layout Abstract
+Key words: Simulating, Model, Tool, Surroundings.
+ 
+\end_layout
+
+\begin_layout Section
+Introducción 
+\end_layout
+
+\begin_layout Standard
+NetLogo es un entorno programable de modelado para simular fenómenos naturales
+ y sociales, es especialmente adecuado para modelar sistemas complejos que
+ se desarrollan en el tiempo.
+ Los modeladores pueden dar instrucciones a cientos o miles de agentes independi
+entes todos operando en paralelo.
+ Esto hace que sea posible explorar la relación entre el nivel micro del
+ comportamiento de los individuos y los patrones a nivel macro que emergen
+ de la interacción de muchos individuos.
+ Ademas este entorno permite la exploración de los fenómenos emergentes
+ que viene con una extensa biblioteca de modelos incluyendo modelos en una
+ variedad de ámbitos, como la economía, la biología, la física, la química,
+ la psicología, la dinámica del sistema.
+ [1] NetLogo permite la exploración mediante la modificación de los interruptore
+s, los deslizadores, selectores, insumos y otros elementos de la interfaz
+ .
+ [2] Más allá de la exploración, NetLogo permite de creación de nuevos modelos
+ y modificación de los modelos existentes.
+ 
+\end_layout
+
+\begin_layout Section
+Desarrollo de contenidos
+\end_layout
+
+\begin_layout Standard
+Para el desarrollo del tutorial de aprendizaje de NetLogo se hizo necesario
+ realizar tres partes que se dividieron en Modelos, Comandos y Procedimientos.
+\end_layout
+
+\begin_layout Standard
+En la parte de Modelos se llega a la comprensión mas profunda de las característ
+icas disponibles mientras se explora los modelos de la Librería de Modelos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/image1.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Interfaz NetLogo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La interfaz se encuentra con botones, interruptores (switches), deslizadores
+ (sliders) y monitores.
+ Estos elementos de la interfaz le permiten interactuar con el modelo.
+ Los botones son de color azul, ellos crean, inician, y detienen el modelo.
+ Los deslizadores (sliders) y los interruptores (switches) son verdes; ellos
+ alteran la configuración de modelo.
+ Los monitores y parcelas son de color beige; ellos muestran los datos.
+\end_layout
+
+\begin_layout Standard
+En cuanto a la parte de procedimientos el enfoque pasará de la observación
+ a la manipulación de modelos.
+ En el que se puede observar el funcionamiento interno de los modelos y
+ de manera que pueda ser capaz de cambiar su aspecto.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
